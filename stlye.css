@@ -5,7 +5,7 @@
     padding: 0;
 }
 .container{
-    background: url(bg.jpg);
+    background: url(./Resimler/bg.jpg);
     height: 100vh;
     background-size:100% 100%;
 }
@@ -45,17 +45,18 @@
     padding: 6px 13px;
     font-family:Roboto;
     transition:.10s;
+
 }.navbar ul li a.activite,
 .navbar ul li a:hover{
     background: #ff6e00;
     border-radius: 2px;
 }
+
 .container .center{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    user-select: none;
 }
 .center h1{ 
     color: rgb(58, 137, 201);
@@ -98,45 +99,9 @@
 
 
 
-.dropbtn {
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffb3b3;
-    background: rgb(207,96,88);
-    cursor: pointer;
-    outline: none;
-    border-radius: 25px;
-    transition: .5s;
-  }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
+
   
  
 
@@ -179,3 +144,4 @@
     transform: translateY(0);
     opacity: 1;
   }
+
