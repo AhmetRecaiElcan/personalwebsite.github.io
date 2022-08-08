@@ -85,8 +85,8 @@
         </div>
     </div> 
 
-
-    <section>
+   
+    <section link rel="stylesheet" href="stleye.css">
         <a name="ben"> </a>
         <div class="container reveal" >
           <h2>Ben Kimim ? :</h2>
@@ -104,22 +104,111 @@
         </div>
       </section>
   
-      <section>
-        <a name="contact"></a>
-        <div class="container reveal" >
-          <h2>İletişim</h2>
-          <p>
-           Burda İletişim Bilgilerimi vericem.
-          </p>
-          <p>
-            Ya da iletişim formu koyarım.
-          </p>
-          <p>
-           Ciddiyim la
-          </p>
-        </div>
-      </section>
+      <section link rel="stylesheet" href="stleye.css">
+       
+        <!DOCTYPE html>
+<html>
+<head>
 
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.bruh {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="bruh">
+  <div style="text-align:center">
+    <a name="contact"> </a>
+    <h2 style="color: red">Benimle İletişime Geçin</h2>
+    <p style="color: red">Hızlıca formu doldurarak benimle iletişime geçin...</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="./Resimler/bg1.gif" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="İsminiz" required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Soyadınız">
+        <label for="country">Yaşadığınız Ülke</label>
+        <select id="country" name="country">
+          <option value="australia">Türkiye</option>
+          <option value="canada">Almanya</option>
+          <option value="usa">Amerika Birleşik Devletleri</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="İstek,Öneri,İtiraz ya da iletişim kurmak için yazın..." style="height:170px" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+    
       <script src="index.js"></script>
     
   
