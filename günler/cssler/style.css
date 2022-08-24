@@ -21,3 +21,44 @@ body{
     margin: auto;
 
 }
+/*Banner*/
+#banner{
+    width: 900px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    margin: auto;
+    background-color: white;
+}
+
+/*LOGO*/
+#LOGO{
+    width: 80px;
+    height: 80px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color:darkgreen;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+/*sosyal medya ikonları*/
+#sosyal{
+    width: 200px;
+    height: 50px;
+    border-style:solid;
+    border-width: 3px;
+    background-color:white;
+    border-color: white;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    
+}
+#ikon{
+    float: left;
+    margin-left: 10px;
+}
